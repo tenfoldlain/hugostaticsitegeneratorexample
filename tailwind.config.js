@@ -40,7 +40,7 @@ module.exports = {
       "2xl": "1536px",
     },
     container: {
-      center: true,
+      center: false,
       padding: "2rem",
     },
     extend: {

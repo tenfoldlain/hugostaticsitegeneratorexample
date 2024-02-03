@@ -1,0 +1,64 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "koi (home)"
+url = "/"
+weight = 1
+
+[[main]]
+name = "flounder (about)"
+url = "https://www.youtube.com/watch?v=idFWFoZIgbQ"
+weight = 2
+
+[[main]]
+name = "salmon (elements)"
+url = "https://www.youtube.com/watch?v=coaN2VBNgYA"
+weight = 3
+
+[[main]]
+weight = 4
+name = "pregnant fish (Pages)"
+hasChildren = true
+
+[[main]]
+parent = "pregnant fish (Pages)"
+name = "baby fish 4"
+url = "https://www.youtube.com/watch?v=M0a_68xnboc"
+
+[[main]]
+parent = "pregnant fish (Pages)"
+name = "baby fish 1"
+url = "https://www.youtube.com/watch?v=UBa31aKmmDc"
+
+[[main]]
+parent = "pregnant fish (Pages)"
+name = "baby fish 2"
+url = "https://www.youtube.com/watch?v=qIWH-ArjdOM"
+
+[[main]]
+parent = "pregnant fish (Pages)"
+name = "baby fish 3"
+url = "https://www.youtube.com/watch?v=IEOPzVncMP4"
+
+[[main]]
+parent = "pregnant fish (Pages)"
+name = "baby fish 2"
+url = "https://www.youtube.com/watch?v=VlTo9Z94XQ0"
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Elements"
+url = "elements/"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 3
